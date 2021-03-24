@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){
       makeToy(toy)
     })
   }
-  )
+)
   
 function makeToy(toy){
     let toyCard = document.createElement("div")
@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       toyFormContainer.style.display = "none";
     }
+    
   });
 })
 }) 
